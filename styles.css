@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Warna latar belakang gelap */
+    color: #ffffff; /* Warna teks yang kontras */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    margin: 0;
+    padding: 20px; /* Tambahkan padding untuk memastikan konten tidak terpotong */
+}
+
+.container {
+    background-color: #1e1e1e; /* Warna latar belakang kontainer gelap */
+    padding: 40px; /* Tambahkan padding lebih besar */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px; /* Perbesar lebar maksimum */
+    height: auto; /* Pastikan tinggi kontainer menyesuaikan konten */
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Warna teks judul */
+    margin-bottom: 20px;
+    margin-top: 0; /* Tambahkan margin atas */
+    display: block; /* Pastikan elemen ditampilkan sebagai blok */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #ffffff; /* Warna teks label */
+}
+
+textarea {
+    width: 100%;
+    height: 80px; /* Sesuaikan tinggi textarea */
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2e2e2e; /* Warna latar belakang textarea */
+    color: #ffffff; /* Warna teks textarea */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 0.9em;
+    color: #ccc; /* Warna teks keterangan */
+}
+
+#feedbackMessage {
+    margin-top: 20px;
+    color: green;
+}
